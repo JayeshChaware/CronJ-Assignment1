@@ -1,75 +1,548 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-html,
-body {
-    font-family: Gilroy;
-    line-height: 1.7em;
-}
-
-#main-section {
-    margin: 0%;
-}
-
-#hero {
-    margin: 0px;
-    background: url("../Assets/Group\ 13079@2x.png") no-repeat center center/cover;
-    opacity: 1;
-    height: 715px;
-}
-
-#logo {
-    float: left;
-    margin-top: 36px;
-    width: 134px;
-    height: 54px;
-}
-
-#navbar {
-    overflow: auto;
-}
-
-#navbar a {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        font-family: Gilroy;
+        line-height: 1.7em;
+    }
+    
+    #main-section {
+        margin: 0%;
+    }
+    
+    #hero {
+        margin: 0px;
+        background: url("../Assets/Group\ 13079@2x.png") no-repeat center center/cover;
+        opacity: 1;
+        height: 715px;
+    }
+    
+    #logo {
+        float: left;
+        margin-top: 36px;
+        width: 134px;
+        height: 54px;
+    }
+    
+    #navbar {
+        overflow: auto;
+    }
+    
+    #navbar a {
+        color: #fff;
+    }
+    
+    #navbar ul {
+        list-style: none;
+        float: right;
+    }
+    
+    #navbar ul li {
+        float: left;
+    }
+    
+    #navbar ul li a {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 52px;
+    }
+    
+    #navbar ul li a:hover {
+        background-color: #444;
+    }
+    /* #navbar ul li a::after {
+    font-family: 'FontAwesome';
+    content: ;
+    margin: 0 5px 0 -15px;
     color: #fff;
-}
-
-#navbar ul {
-    list-style: none;
-    float: right;
-}
-
-#navbar ul li {
-    float: left;
-}
-
-#navbar ul li a {
-    display: block;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 52px;
-}
-
-#navbar ul li a:hover {
-    background-color: #444;
-}
-
-#navbar-length {
-    width: 1144px;
-    margin: auto;
-}
-
-#contactBTN {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 40px;
-    height: 40px;
-    width: 142px;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    background-color: #FB5012;
-    opacity: 1;
-    border-radius: 25px;
-}
+} */
+    
+    #navbar-length {
+        width: 1144px;
+        margin: auto;
+        /* justify-content: center;
+    display: inline-flex; */
+    }
+    
+    .navbar-length {
+        width: 1144px;
+        margin: 2vw auto;
+        justify-content: center;
+        display: inline-flex;
+    }
+    
+    #navbar-length2 {
+        width: 1144px;
+        margin: auto;
+    }
+    
+    #contactBTN {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+        height: 40px;
+        width: 142px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        background-color: #FB5012;
+        opacity: 1;
+        border-radius: 25px;
+    }
+    
+    #Header-content {
+        text-align: left;
+        font-size: 51px;
+        font-family: Gilroy ☞;
+        color: #FFFFFF;
+        display: inline-block;
+        font-style: bold;
+        letter-spacing: 0px;
+        line-height: normal;
+    }
+    
+    #highlight {
+        color: #EF6666;
+        display: inline-block;
+    }
+    
+    #headerBtn {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+        width: 534px;
+        height: 80px;
+        text-align: center;
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        background-color: #FB5012;
+        opacity: 1;
+        border-radius: 5px;
+    }
+    
+    #body-size {
+        width: 915px;
+        height: 63px;
+        margin-left: 148px;
+        margin-top: 121px;
+    }
+    
+    #email-logo {
+        width: 30px;
+        height: 22px;
+        margin-left: 10px;
+    }
+    
+    #book-call {
+        background-image: url("../Assets/Group 12623.png");
+        text-align: center;
+        height: 289px;
+        color: #fff;
+    }
+    
+    #All-heading {
+        /* font: normal normal bold 28px/35px Gilroy ☞; */
+        display: inline-block;
+        margin-top: 60px;
+        font-size: 28px;
+        font-style: bold;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+    #All-text {
+        font-size: 18px;
+        font-style: normal;
+        margin-top: 25px;
+    }
+    
+    #All-button {
+        width: 170px;
+        height: 65px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 7px;
+        opacity: 1;
+        font-size: 7px/28px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-style: bold;
+        margin-top: 20px;
+    }
+    
+    #All-button img {
+        margin-left: 5px;
+        width: 20px;
+        height: 19px;
+    }
+    
+    #client-section {
+        background-image: url("../Assets/Group\ 11323@2x.png");
+        text-align: center;
+        height: 389px;
+        color: #FFFFFF;
+    }
+    
+    #clienthead {
+        padding-top: 77px;
+        padding-bottom: 25px;
+        margin: auto;
+        width: 529px;
+        font-size: 27px;
+        text-align: center;
+    }
+    
+    #client-section-img {
+        width: 1300px;
+        margin: auto;
+    }
+    
+    #clientbody {
+        margin: auto;
+        font-size: 18px;
+        width: 894px;
+        margin-bottom: 25px;
+    }
+    
+    #client-section-img img {
+        width: auto;
+    }
+    
+    .element-logo {
+        height: 46px;
+        width: 46px;
+        margin-right: 3vh;
+    }
+    
+    .element-heading {
+        font-size: 30px;
+        font-style: bold;
+    }
+    
+    .page-title {
+        padding-top: 40px;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #page1-content {
+        margin-top: 110px;
+        margin-left: 28px;
+    }
+    
+    .float-container {
+        padding: 0%;
+        display: flex;
+    }
+    
+    .float-child-left {
+        width: 55%;
+        float: left;
+    }
+    
+    .float-child-right {
+        width: 45%;
+        float: right;
+    }
+    
+    #page1-img {
+        width: 509px;
+        height: 501px;
+    }
+    
+    .col {
+        /* flex: auto;
+    display: inline-table;
+    flex-direction: row;
+    margin-inline: 9vw;  */
+    }
+    
+    .reason {
+        width: 6vh;
+        margin-top: 40px;
+    }
+    
+    .decs {
+        font-size: 18px;
+        margin-left: 41px;
+    }
+    
+    .float-child-section1 {
+        width: 50%;
+        float: left;
+    }
+    
+    .float-child-section2 {
+        width: 50%;
+        float: left;
+    }
+    
+    #body-length {
+        width: 1200px;
+        margin: auto;
+    }
+    
+    .body-width {
+        width: 1200px;
+        margin: auto;
+    }
+    
+    #get-started {
+        background-image: url("../Assets/Group\ 12724.png");
+        width: 1108px;
+        height: 250px;
+    }
+    
+    .float-child-start1 {
+        width: 65%;
+        float: left;
+        margin-left: 80px;
+    }
+    
+    .float-child-start2 {
+        width: 35%;
+        float: right;
+        margin: auto;
+    }
+    
+    .container {
+        position: relative;
+        /* text-align: center; */
+        color: white;
+    }
+    
+    .centered {
+        position: absolute;
+        top: 1px;
+        left: 13px;
+    }
+    
+    .centered span {
+        /* text-align: center; */
+        color: #fff;
+    }
+    
+    .float-child-box1 {
+        width: 80%;
+        float: left;
+        padding-right: 28px;
+    }
+    
+    .float-child-box2 {
+        width: 20%;
+        float: right;
+        padding-left: 28px;
+        border-left: 1px solid #FB5012;
+    }
+    
+    .float-child-innerbox1 {
+        width: 10%;
+        float: left;
+        padding-right: 25px;
+    }
+    
+    .float-child-innerbox2 {
+        width: 90%;
+        float: right;
+    }
+    
+    .float-logo {
+        padding: 10px;
+        display: flex;
+        border: 1px solid #FB5012;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    .float-logo-left {
+        width: 15%;
+        float: left;
+    }
+    
+    .solo-logo {
+        width: 6vh;
+        height: 6vh;
+    }
+    
+    #stats {
+        background-image: url("../Assets/Group 12743.png");
+        height: 332px;
+        width: auto;
+        color: #fff;
+    }
+    
+    .float-elements {
+        width: 25%;
+        text-align: center;
+        padding: 100px 50px;
+    }
+    
+    .element-title {
+        font-size: 58px;
+    }
+    
+    #page2-img {
+        width: 663px;
+        height: 508px;
+    }
+    
+    .body-list {
+        list-style: none;
+    }
+    
+    .body-list li::before {
+        content: "\2022";
+        color: #FB5012;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        margin-bottom: 10px;
+    }
+    
+    .float-logo2 {
+        display: flex;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    #ui-ux {
+        background-image: url("../Assets/Group\ 12969.png");
+        height: 332px;
+        width: auto;
+        color: #fff;
+        text-align: center;
+        padding-top: 120px;
+    }
+    
+    .float-industry-left {
+        width: 50%;
+        padding: 50px 50px;
+    }
+    
+    .float-industry-right {
+        width: 50%;
+        padding: 50px 50px;
+    }
+    
+    .sections {
+        background-color: #F7F8F7;
+    }
+    
+    .sub-sections {
+        width: 1200px;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    
+    .services-element {
+        margin: 36px;
+        margin-top: 12px;
+    }
+    
+    .services-element div {
+        margin-bottom: 47px;
+    }
+    
+    .services-element div img {
+        width: 74px;
+        margin-bottom: 24px;
+    }
+    
+    .services-element div h4 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    
+    .services-element div p {
+        font-size: 18px;
+        color: #707070;
+        margin-bottom: 20px;
+    }
+    
+    .tech {
+        margin: 60px;
+    }
+    
+    .tech img {
+        width: 114px;
+    }
+    
+    .tech p {
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .sections-white {
+        padding-bottom: 50px;
+    }
+    
+    #outsource {
+        background-image: url("../Assets/Group\ 13021.png");
+        height: 341px;
+        text-align: center;
+        padding-top: 84px;
+        color: #fff;
+    }
+    
+    #outsource h4 {
+        font-size: 24px;
+    }
+    
+    #outsource p {
+        font-size: 18px;
+        margin: 7px;
+    }
+    
+    #outsource button {
+        width: 509px;
+        height: 87px;
+        margin: 7px;
+        font-size: 24px;
+        border-radius: 15px;
+    }
+    
+    #outsource button img {
+        width: 26px;
+        height: 24px;
+        margin-left: 25px;
+        border: 0px;
+    }
+    
+    .dev-process img {
+        width: 49px;
+        height: 49px;
+    }
+    
+    .dev-process p {
+        font-size: 19px;
+    }
+    
+    .dev-process {
+        margin: 50px;
+    }
+    
+    .hline {
+        height: 0;
+        border-top: 4px solid #800020;
+        margin-top: 10px;
+        margin-left: 3px;
+        margin-right: 3px;
+        display: inline-block;
+        opacity: 1;
+    }
+    
+    .dot {
+        height: 22px;
+        width: 22px;
+        background-color: #FB5012;
+        border-radius: 50%;
+        display: inline-block;
+    }
