@@ -897,7 +897,7 @@
                         <p style="margin: auto; width: 952px;text-align: center; font-size: 20px;letter-spacing: 0.1px;color: #707070;opacity: 1; ">
                             Select from a wide range of services or combine them to develop the apt yet most affordable solution that enhances your business presence and success! </p>
                     </div>
-                    <div class="float-container">
+                    <div class="float-container" id="services">
                         <div>
                             <img src="Assets/Group 12815@2x.png " alt=" ">
                             <h3>UI/UX Design</h3>
@@ -915,7 +915,7 @@
                         </div>
 
                     </div>
-                    <div class="float-container">
+                    <div class="float-container" id="services2">
                         <div>
                             <img src="Assets/Group 12817@2x.png " alt=" ">
                             <h3>Maintenance & Support</h3>
@@ -929,22 +929,30 @@
                     </div>
                 </div>
 
-                <div>
-                    <div>
-                        <h2>Consult with us for getting Cost Estimates</h2>
-                        <p>Consult with us for getting Cost Estimates</p>
-                    </div>
-                    <div>
-                        <button>Contact Us <img src="Assets/23-mail@2x.png " alt=" "></button>
+                <div class="body-width" id="counsult" style="margin-top: 50px;">
+                    <div class="float-container">
+                        <div class="float-child-start1" style="margin-top: 96px;">
+                            <p style="font-size: 30px; color: #fff; width: 541px;">Consult with us for getting Cost Estimates</p>
+                            <p style="font-size: 19px; color: #fff; margin-top: 17px; width: 575px;height: 23px;">Ring us up today and get an estimated cost of your entire project.</p>
+                        </div>
+                        <div class="float-child-start2" style="margin-top: 94px;">
+                            <span style="margin: auto;">
+                            <button style="width: 265px; height: 77px; border-radius:10px;font-size: 24px;font-weight: bold;">Contact Us <img src="Assets/23-mail@2x.png" alt="" style="height: 35px;"></button>
+                            </span>
+
+                        </div>
                     </div>
                 </div>
 
+
                 <div>
-                    <div>
-                        <img src="Assets/blueprint@2x.png " alt=" ">
-                        <h3>Our Portfolios</h3>
+                    <div class="page-title">
+                        <div class="navbar-length">
+                            <img src="Assets/blueprint@2x.png" alt="" class="element-logo" style="width: 47px;height: 47px;">
+                            <span class="element-heading">Our Portfolios</span>
+                        </div>
                     </div>
-                    <div>
+                    <div class="float-container" id="portfolio">
                         <div>
                             <img src="Assets/Group 12297@2x.png " alt=" ">
                             <h2>Web</h2>
@@ -955,6 +963,10 @@
                         </div>
                     </div>
                     <div>
+
+                    </div>
+                    <div class="float-container" id="portfolio-elements">
+
                         <div>
                             <img src="Assets/Group 11142@2x.png " alt=" ">
                             <h3>
@@ -965,6 +977,9 @@
                             </p>
                             <a href="# ">Read More</a>
                         </div>
+
+
+
                         <div>
                             <img src="Assets/Group 11143@2x.png " alt=" ">
                             <h3>
@@ -975,6 +990,9 @@
                             </p>
                             <a href="# ">Read More</a>
                         </div>
+
+
+
                         <div>
                             <img src="Assets/Group 11317@2x.png " alt=" ">
                             <h3>
@@ -985,6 +1003,11 @@
                             </p>
                             <a href="# ">Read More</a>
                         </div>
+
+
+
+                    </div>
+                    <div class="float-container" id="portfolio-elements2">
                         <div>
                             <img src="Assets/Group 12302@2x.png " alt=" ">
                             <h3>
@@ -1015,117 +1038,172 @@
                             </p>
                             <a href="# ">Read More</a>
                         </div>
+
                     </div>
                 </div>
 
-                <DIV>
-                    <h2>Want to infuse AI but low on budget?</h2>
-                    <p>Enjoy the luxury of low operational rates, huge talent pools, and advanced technology implementation with one of the top AI companies in Bangalore - CronJ!</p>
-                    <button>Get an Estimated Quote! <img src="Assets/save-money (3)@2x.png " alt=" "></button>
+                <DIV id="infuse-ai">
+                    <div>
+                        <h2>Want to infuse AI but low on budget?</h2>
+                        <p>Enjoy the luxury of low operational rates, huge talent pools, and advanced technology implementation with one of the top AI companies in Bangalore - CronJ!</p>
+                        <button>Get an Estimated Quote! <img src="Assets/save-money (3)@2x.png " alt=" "></button>
+                    </div>
+
                 </DIV>
 
-                <div>
-                    <div>
-                        <h2>Get In touch with Us</h2>
-                        <p>Think with CronJ! Reach out to us today for futuristic solution development</p>
+
+                <div class="contact">
+                    <div class="contact-form">
+                        <div class="float-container" id="contact-title">
+                            <div id="float-contact">
+                                <h2>Get In touch with Us</h2>
+                                <p>Think with CronJ! Reach out to us today for futuristic solution development</p>
+                            </div>
+                            <img src="Assets/_x35_-Talk_On_Phone@2x.png " alt=" " id="contact">
+                        </div>
+
+                        <div class="form-body">
+                            <div class="float-container">
+                                <div class="float-form-left">
+                                    <label for="Full Name ">Full Name</label><br>
+                                    <input type="text " placeholder="Enter Your full name " class="form-body-input">
+                                </div>
+                                <div class="float-form-right">
+                                    <label for="Phone Number ">Phone Number</label> <br>
+                                    <input type="number " placeholder="Enter Your phone number " class="form-body-input">
+                                </div>
+                            </div>
+                            <div class="float-container">
+                                <div class="float-form-left">
+                                    <label for="Email ID ">Email ID</label><br>
+                                    <input type="email " placeholder="Enter Your Email ID " class="form-body-input">
+                                </div>
+                                <div class="float-form-right">
+                                    <label for="Company Name ">Company Name</label><br>
+                                    <input type="text " placeholder="Enter Your Company Name " class="form-body-input">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="Requirement " style="margin-bottom:25px ;">Requirement</label><br>
+                                <input type="checkbox " style="width: 35px;height: 35px; margin-right: 15px;" class="form-body-input">
+                                <label for="Design " style="margin-right: 59px;">Design</label>
+                                <input type="checkbox " style="width: 35px;height: 35px;margin-right: 15px;" class="form-body-input">
+                                <label for="Web App Development " style="margin-right: 59px;">Web App Development</label>
+                                <input type="checkbox " style="width: 35px;height: 35px;margin-right: 15px;" class="form-body-input">
+                                <label for="Migration " style="margin-right: 59px;">Migration</label>
+                                <input type="checkbox " style="width: 35px;height: 35px;margin-right: 15px;" class="form-body-input">
+                                <label for="Hire a Developer " style="margin-right: 59px;">Hire a Developer</label><br>
+                                <input type="checkbox " style="width: 35px;height: 35px;margin-right: 15px;" class="form-body-input">
+                                <label for="Mobile App Development " style="padding-right: 59px;">Mobile App Development</label>
+                            </div>
+                            <div>
+                                <label for="Enquiry Details " style="margin-bottom: 30px;">Enquiry Details</label><br>
+                                <textarea name="Enquiry Details " id=" " style="border: 1.5px solid #4569B38C;border-radius: 6px;width: 100%;height: 154px;margin-top: 10px; margin-bottom: 20px;" placeholder="Please enter your key description "></textarea>
+                            </div>
+                            <div style="border: 2px dashed #0F4DC2; width:100%; height: 229px; border-radius:8px ; text-align: center; padding-top: 25px; margin-bottom: 20px">
+
+                                <img src="Assets/upload.png" alt="" height="30px" width="30px">
+                                <p style="width: 174px;height: 52px;font-size: 20px; margin: auto; margin-bottom: 18px;margin-top: 18px;">Drag and drop here or</p>
+                                <div>
+
+
+                                    <input type="file" name="" id="fileUpload" style="display:none;">
+                                    <label for="fileUpload" id="filetxt">Browse</label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <button id="submitbtn">Submit Details</button>
+                            </div>
+                        </div>
                     </div>
-                    <img src="Assets/_x35_-Talk_On_Phone@2x.png " alt=" ">
-                </div>
-                <div>
-                    <label for="Full Name ">Full Name</label>
-                    <input type="text " placeholder="Enter Your full name ">
-                </div>
-                <div>
-                    <label for="Phone Number ">Phone Number</label>
-                    <input type="number " placeholder="Enter Your phone number ">
-                </div>
-                <div>
-                    <label for="Email ID ">Email ID</label>
-                    <input type="email " placeholder="Enter Your Email ID ">
-                </div>
-                <div>
-                    <label for="Company Name ">Company Name</label>
-                    <input type="text " placeholder="Enter Your Company Name ">
-                </div>
-                <div>
-                    <label for="Requirement ">Requirement</label>
-                    <input type="checkbox ">
-                    <label for="Design ">Design</label>
-                    <input type="checkbox ">
-                    <label for="Web App Development ">Web App Development</label>
-                    <input type="checkbox ">
-                    <label for="Migration ">Migration</label>
-                    <input type="checkbox ">
-                    <label for="Hire a Developer ">Hire a Developer</label>
-                    <input type="checkbox ">
-                    <label for="Mobile App Development ">Mobile App Development</label>
-                </div>
-                <div>
-                    <label for="Enquiry Details ">Enquiry Details</label>
-                    <textarea name="Enquiry Details " id=" " cols="30 " rows="10 ">Please enter your key description</textarea>
-                </div>
-                <div>
-                    <input type="file " placeholder="Drag and drop here or ">
-                </div>
-                <div>
-                    <input type="submit " value="Submit Details ">
                 </div>
 
-                <footer>
-                    <div>
-                        <div>
+                <footer class="footer">
+                    <div class="float-container" style="padding-bottom: 80px;">
+                        <div class="footer-section1" style="border-right: 1px solid #71808B;">
                             <img src="Assets/Group 11154@2x.png " alt=" ">
-                            <a href="contact@cronj.com ">contact@cronj.com</a>
-                            <a href="# ">Get a Call</a>
-                            <a href="# ">Hire a Developer</a>
+                            <p> <a href="contact@cronj.com ">contact@cronj.com</a>
+                            </p>
+                            <p> <a href="# ">Get a Call</a>
+                            </p>
+                            <p> <a href="# ">Hire a Developer</a>
+                            </p>
                         </div>
-                        <div>
+                        <div class="footer-section2">
                             <h4>Services & Offerings</h4>
-                            <ul>
-                                <li><a href=" ">Web App Development</a></li>
-                                <li><a href=" ">Mobile App Development</a></li>
-                                <li><a href=" ">UI/UX Design</a></li>
-                                <li><a href=" ">UI/UX Design</a></li>
-                                <li><a href=" ">NodeJS Development</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul>
-                                <li><a href=" ">React Native Development</a></li>
-                                <li><a href=" ">Android App Development</a></li>
-                                <li><a href=" ">iOS App Development</a></li>
-                                <li><a href=" ">Hybrid App Development</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>Company</h4>
-                            <ul>
-                                <li><a href=" ">About us</a></li>
-                                <li><a href=" ">Portfolio</a></li>
-                                <li><a href=" ">Our Blogs</a></li>
-                                <li><a href=" ">Birbal Ai</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>Locations</h4>
-                            <ul>
-                                <li>
-                                    <a href=" "><img src="Assets/Mask Group 50@2x.png " alt=" ">India</a>
-                                </li>
-                                <li>
-                                    <a href=" "><img src="Assets/Mask Group 51@2x.png " alt=" ">Netherlands</a>
-                                </li>
-                                <li>
-                                    <a href=" "><img src="Assets/Mask Group 52@2x.png " alt=" ">UAE</a>
-                                </li>
-                                <li>
-                                    <a href=" "><img src="Assets/Mask Group 53@2x.png " alt=" ">USA</a>
-                                </li>
+                            <p> <a href=" ">Web App Development</a></p>
+                            <p><a href=" ">Mobile App Development</a></p>
+                            <p><a href=" ">UI/UX Design</a></p>
+                            <p><a href=" ">ReactJS Development</a></p>
+                            <p><a href=" ">NodeJS Development</a></p>
 
-                            </ul>
+
+
+
+                        </div>
+                        <div class="footer-section3">
+
+                            <p><a href=" ">React Native Development</a></p>
+                            <p><a href=" ">Android App Development</a></p>
+                            <p><a href=" ">iOS App Development</a></p>
+                            <p><a href=" ">Hybrid App Development</a></p>
+
+                        </div>
+                        <div class="footer-section4">
+                            <h4>Company</h4>
+
+                            <p><a href=" ">About us</a></p>
+                            <p><a href=" ">Portfolio</a></p>
+                            <p><a href=" ">Our Blogs</a></p>
+                            <p><a href=" ">Birbal Ai</a></p>
+
+                        </div>
+                        <div class="footer-section5">
+                            <h4>Locations</h4>
+
+                            <p>
+                                <a href=" ">
+                                    <div class="float-container">
+                                        <div class="float-child-section1"><img src="Assets/Mask Group 50@2x.png" alt=" "></div>
+                                        <div class="float-child-section2">India</div>
+                                    </div>
+                                </a>
+
+                            </p>
+                            <p>
+                                <a href=" ">
+                                    <div class="float-container">
+
+                                        <div class="float-child-section"><img src="Assets/Mask Group 51@2x.png " alt=" "></div>
+                                        <div class="float-child-section2">Netherland</div>
+                                    </div>
+                                </a>
+
+                            </p>
+                            <p>
+                                <a href=" ">
+                                    <div class="float-container">
+                                        <div class="float-child-section1"><img src="Assets/Mask Group 52@2x.png " alt=" "></div>
+                                        <div class="float-child-section2">UAE</div>
+                                    </div>
+                                </a>
+
+                            </p>
+                            <p>
+
+                                <a href=" ">
+                                    <div class="float-container">
+                                        <div class="float-child-section1"><img src="Assets/Mask Group 53@2x.png " alt=" "></div>
+                                        <div class="float-child-section2">USA</div>
+                                    </div>
+                                </a>
+                            </p>
+
+
                         </div>
                     </div>
-                    <div>
+                    <div class="social">
                         <h3>Connect with us Socially!</h3>
                         <img src="Assets/Group 14243@2x.png " alt=" ">
                         <img src="Assets/Group 14244@2x@2x.png " alt=" ">
